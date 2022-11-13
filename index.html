@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="style_1.css">
+    <title>Welcome</title>
+</head>
+<body id="body">
+    <div class="navigation">
+        <img id="img_ham" onclick="openav()" src="images/icon-menu.svg" alt="">
+        <div class="img_logo">
+            <img src="images/logo.svg" alt="">
+        </div>
+        <div class="nav-items">
+            <ul class="items">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">New </a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Categories</a></li>
+            </ul>
+        </div>
+        <div id="navigation_mobile" class="navigation_mobile">
+            <ul class="items">
+                <img id="img_close" onclick="closenav()" src="images/icon-menu-close.svg" alt="" srcset="">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">New </a></li>
+                <li><a href="#">Popular</a></li>
+                <li><a href="#">Trending</a></li>
+                <li><a href="#">Categories</a></li>
+            </ul>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <div>
+
+        <div class="main">
+            <div class="img_1">
+                <img id="img" src="images/image-web-3-desktop.jpg" alt="">
+                <img id="img_mobile" src="images/image-web-3-mobile.jpg" alt="">
+            </div>
+            <div class="container">
+                <div class="text_line">
+                    <h1>The Bright  <br/>Future of <br/>Web 3.0?</h1>
+                </div>
+                <div class="text_line_mobile">
+                    <h1>The Bright Future of <br/>Web 3.0?</h1>
+                </div>
+                <div class="paragraph">
+                    <p>We dive you into the next gen
+                        of being ducked by several<br/>ecause
+                        you guys ducked by us.
+                        Lorem ipsum dolor <br/>sit amet 
+                         adipisicing elit.
+                         Vitae voluptate consequuntur 
+                    </p>
+                    <div class="btn">
+                        <button><a href="#" id="readmore">READ MORE</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="New_temp">
+                <div class="text_1">
+                    <h2>New</h2>
+                    <div class="mid_text">
+                        <h4><a id="a" href="#">Hydrogen VS Electric Cars</a></h4>
+                        <p id="p_text"> Will Hydrogen cars are more efficient <br/>fuled catup ?</p>
+                    </div>
+                 
+                    <div class="mid_text">
+                        <h4><a id="a" href="#"> The Downsides of AI Artistry</a></h4>
+                        <p id="p_text">Will Hydrogen cars are more efficient <br/>fuled catup ?</p>
+                    </div>
+                 
+                    <div class="mid_text">
+                        <h4><a id="a" href="#"> Is VC Funding Drying Up?</a></h4>
+                        <p id="p_text">Will Hydrogen cars are more efficient <br/>fuled catup ?</p>
+                    </div>
+                </div>
+            </div>
+      
+
+        </div>
+        <br/>
+        <!-- <div class="container">
+            <div class="text_line">
+                <h1>The Bright  <br/>Future of <br/>Web 3.0?</h1>
+            </div>
+            <div class="paragraph">
+                <p>We dive you into the next gen
+                    of being ducked by several<br/>ecause
+                    you guys ducked by us.
+                    Lorem ipsum dolor <br/>sit amet 
+                     adipisicing elit.
+                     Vitae voluptate consequuntur 
+                </p>
+                <div class="btn">
+                    <button><a href="#" id="readmore">READ MORE</a></button>
+                </div>
+            </div>
+        </div> -->
+        <div class="container_2">
+            <div class="image_retro_image">
+                <!-- <div class="text_retro">
+                </div> -->
+                <p class="text_retro">01</p>
+                <img id="image_1" src="images/image-retro-pcs.jpg" alt="">
+                <p class="retro_para"><a href="#"> Reviving Retro PCs</a></p>
+                <p class="retro_para_1">What happens when old PCs <br> are given modern upgrades?</p>
+                <!-- <div class="retro_para">
+                </div> -->
+            </div>
+        </div>
+        <div class="container_2">
+            <div class="image_retro_image">
+                <!-- <div class="text_retro">
+                </div> -->
+                <p class="text_retro">02</p>
+                <img id="image_1" src="images/image-top-laptops.jpg" alt="">
+                <p class="retro_para"><a href="#">Top 10 Laptops of 2022</a></p>
+                <p class="retro_para_1">Our best picks for various <br> needs and bugets.</p>
+                <!-- <div class="retro_para">
+                </div> -->
+            </div>
+        </div>
+        <div class="container_2">
+            <div class="image_retro_image">
+                <!-- <div class="text_retro">
+                </div> -->
+                <p class="text_retro">03</p>
+                <img id="image_1" src="images/image-gaming-growth.jpg" alt="">
+                <p class="retro_para"><a href="#">The Growth of Gaming</a></p>
+                <p class="retro_para_1">How the Pandemic has <br> sparked fresh opportunities.</p>
+                <!-- <div class="retro_para">
+                </div> -->
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    function openav()
+    {
+        console.log("Open");
+        document.getElementById("navigation_mobile").style.marginRight = "160px";
+        document.getElementById("body").style.backgroundColor = "rgba(0,0,0,0.5)";
+    }
+    function closenav()
+    {
+        console.log("Open");
+        document.getElementById("navigation_mobile").style.marginRight = "-160px";
+        document.getElementById("body").style.backgroundColor = "rgba(0,0,0,0)";
+    }
+</script>
+</html>
